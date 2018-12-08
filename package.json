@@ -1,7 +1,7 @@
 {
-  "name": "css-training",
+  "name": "css-training-spy",
   "version": "1.0.0",
-  "description": "",
+  "description": "spy",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
@@ -15,5 +15,5 @@
     "@types/sass": "1.15.1",
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": []
+  "keywords": ["sdfsafd"]
 }
