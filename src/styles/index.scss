@@ -1,3 +1,5 @@
+@import "reset";
+
 .link {
   display: inline-block;
   color: var(--main-font-color);
@@ -23,3 +25,4 @@
 @import "components/layout";
 @import "components/header";
 @import "components/navigation";
+@import "components/charts";

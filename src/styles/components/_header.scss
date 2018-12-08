@@ -1,7 +1,41 @@
+.spy-logo {
+  width: 25%;
+  display: inline-block;
+  img {
+    height: 30px;
+    width: auto;
+  }
+}
+
+.spy-title {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #f2f2f2;
+  }
+}
+
 .spy-search {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  width: 25%;
+
+  div {
+    position: relative;
+    display: inline-block;
+  }
+
   button {
-    height: 20px;
-    width: 20px;
+    position: absolute;
+    left: 3px;
+    top: 13px;
+    height: 14px;
+    width: 14px;
     background-color: transparent;
     border: 0;
     transform: rotate(270deg);
@@ -9,7 +43,7 @@
     &:before {
       content: "";
       display: block;
-      border: 1px solid white;
+      border: 1px solid #181818;
       width: 15px;
       height: 15px;
       border-radius: 100%;
@@ -20,8 +54,15 @@
       display: block;
       width: 2px;
       height: 3px;
-      background-color: white;
+      background-color: #181818;
       transform: rotate(30deg);
     }
+  }
+
+  input {
+    padding-left: 30px;
+    border-radius: 13px;
+    border: none;
+    height: 28px;
   }
 }

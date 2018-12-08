@@ -1,0 +1,41 @@
+.spy-charts {
+  padding: 0 30px;
+
+  section {
+    padding: 10px 0;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 10px 10px 30px 10px;
+    border-bottom: 1px solid #cccccc30;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  p {
+    color: #878787;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+
+  article {
+    @media screen and (min-width: 700px) {
+      display: inline-block;
+      width: calc((100% / 4) - 20px);
+      margin: 0 10px;
+    }
+  }
+
+  > div {
+    font-size: 0;
+
+    > * {
+      font-size: 18px;
+    }
+  }
+}
